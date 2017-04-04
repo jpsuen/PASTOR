@@ -26,6 +26,7 @@ Note: This assumes that our forked branch of the [SUSOM REDCap-extra hooks](http
   2. Install Mike Haertl's PHP wrapper for wkhtmltopdf available here: [https://github.com/mikehaertl/phpwkhtmltopdf](https://github.com/mikehaertl/phpwkhtmltopdf)
   3. Install the the files located in the report.php section into you /plugins folder on your REDCap instance.
   4. Update any variable names that may have been added/removed/changed when you set-up the project.
+  5. On the final instrument administered on REDCap update the 'Survey Termination Options' to 'Redirect to a URL' and point to the location of the plugin installed in step 3 using piping for the project id number. 
 
 ## FAQ
   1. How can I use PASTOR?
